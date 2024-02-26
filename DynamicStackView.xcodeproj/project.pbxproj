@@ -11,6 +11,8 @@
 		DB6C15062B85E3FF004F9083 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6C15052B85E3FF004F9083 /* ContentView.swift */; };
 		DB6C15082B85E402004F9083 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB6C15072B85E402004F9083 /* Assets.xcassets */; };
 		DB6C150B2B85E402004F9083 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB6C150A2B85E402004F9083 /* Preview Assets.xcassets */; };
+		DB87ED012B8C3F99004D9662 /* DynamicStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB87ED002B8C3F99004D9662 /* DynamicStack.swift */; };
+		DB87ED032B8C3FB0004D9662 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB87ED022B8C3FB0004D9662 /* TextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		DB6C15052B85E3FF004F9083 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DB6C15072B85E402004F9083 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB6C150A2B85E402004F9083 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DB87ED002B8C3F99004D9662 /* DynamicStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicStack.swift; sourceTree = "<group>"; };
+		DB87ED022B8C3FB0004D9662 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				DB6C15032B85E3FF004F9083 /* DynamicStackViewApp.swift */,
 				DB6C15052B85E3FF004F9083 /* ContentView.swift */,
+				DB87ED022B8C3FB0004D9662 /* TextView.swift */,
+				DB87ED002B8C3F99004D9662 /* DynamicStack.swift */,
 				DB6C15072B85E402004F9083 /* Assets.xcassets */,
 				DB6C15092B85E402004F9083 /* Preview Content */,
 			);
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB6C15062B85E3FF004F9083 /* ContentView.swift in Sources */,
+				DB87ED032B8C3FB0004D9662 /* TextView.swift in Sources */,
 				DB6C15042B85E3FF004F9083 /* DynamicStackViewApp.swift in Sources */,
+				DB87ED012B8C3F99004D9662 /* DynamicStack.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
